@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-midnight text-whisper font-sans min-h-screen antialiased;
+}
+
+main {
+  @apply min-h-screen;
+}
+
+button {
+  @apply outline-none;
+}
